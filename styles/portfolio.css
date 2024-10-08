@@ -1,30 +1,35 @@
 /* common shared styles */
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'lato', sans-serif;
-    
+
 }
 
-nav{
+nav {
     display: flex;
-     justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
+
 }
-.nav-tittle{
+
+.nav-tittle {
     color: #181818;
     font-size: 45px;
     font-weight: 800px;
 }
-.text-primary{
-    color:#FD6E0A;
+
+.text-primary {
+    color: #FD6E0A;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background-color: #FD6E0A;
     border: 0;
@@ -33,12 +38,26 @@ nav > ul{
     padding: 15px 35px;
     color: white;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #474747;
+}
+
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
